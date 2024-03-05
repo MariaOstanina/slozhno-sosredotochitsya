@@ -8,9 +8,18 @@
   --text-color: #F1B2CE;
   --main-font: 'IBM Plex mono';
   --accent-text-color: #000028;
-  --bg-image: url(/images/cover-image.png);
+  --bg-image: url(../images/cover-image.png);
   --title-color: #db00ff;
   --title-shadow: var(--accent-color);
   --button-color: var(--accent-color);
-  --hover-button: var(--text-color);
+  --hover-button: rgba(255, 0, 112, 0.4);
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --pseudo-border-color: var(--accent-color);
+  --content-title-color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+  :root {
+  --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

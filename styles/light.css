@@ -15,11 +15,14 @@
   --text-color: #353430;
   --main-font: 'IBM Plex mono';
   --accent-text-color: #000028;
-  --bg-image: url(/images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --title-color: #ffc2e6;
   --title-shadow: var(--accent-color);
   --button-color: var(--text-color);
   --hover-button: rgba(50, 49, 45, 0.4);
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --pseudo-border-color: var(--text-color);
+  --content-title-color: var(--text-color);
   --decorated-element-opacity: 0;
 }
 
@@ -30,11 +33,14 @@
     --text-color: #353430;
     --main-font: 'IBM Plex mono';
     --accent-text-color: #000028;
-    --bg-image: url(/images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
     --title-color: #ffc2e6;
     --title-shadow: var(--accent-color);
     --button-color: var(--text-color);
     --hover-button: rgba(50, 49, 45, 0.4);
+    --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --pseudo-border-color: var(--text-color);
+    --content-title-color: var(--text-color);
     --decorated-element-opacity: 0;
   }
 }
