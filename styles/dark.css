@@ -13,7 +13,6 @@
   --accent-color: #ff0070;
   --bg-color: #000000;
   --text-color: #F1B2CE;
-  --main-font: 'IBM Plex mono';
   --accent-text-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --title-color: #db00ff;
@@ -30,7 +29,6 @@
     --accent-color: #ff0070;
     --bg-color: #000000;
     --text-color: #F1B2CE;
-    --main-font: 'IBM Plex mono';
     --accent-text-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);
     --title-color: #db00ff;

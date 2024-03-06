@@ -20,7 +20,7 @@
 
 .header__title {
   color: var(--title-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-font-size);
   text-shadow: 4px 4px 0 var(--title-shadow);
   font-family: var(--main-font, monospace);
   font-weight: 700;
@@ -233,7 +233,7 @@ a:focus-visible {
 
 .footer__title {
   color: var(--title-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-font-size);
   text-shadow: 4px 4px 0 var(--title-shadow);
   font-family: var(--main-font, monospace);
   font-weight: 700;
@@ -254,7 +254,7 @@ a:focus-visible {
 
   .header__title {
     margin-inline-start: -20px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-font-size);
   }
 
   .decorated-element {
@@ -340,7 +340,7 @@ a:focus-visible {
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-font-size);
   }
 }
 
